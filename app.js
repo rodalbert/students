@@ -51,32 +51,6 @@ app.post("/sign-up", function(req, res) {
   })
 
 
-//Goodreads
-
-const options = {
-  url: "https://www.goodreads.com/author/list.xml",
-  auth: {
-    username: "anystring",
-    password: ""
-  },
-  body: body
-}
-
-request.post(options, function (err, response, body) {
-  console.log(body)
-})
-
-if(err) {
-  return res.send(err)
-}
-
-res.send("sucess!")
-
-})
-
-
-
-
 //Mailchimp
 
   const options = {
@@ -101,21 +75,3 @@ res.send("sucess!")
 
 
 
-
-  
-
-  
-  
-  
-
-
-  
-
-
-
-
-
-
-
-  
-  
