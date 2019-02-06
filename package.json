@@ -1,0 +1,17 @@
+{
+  "name": "apis",
+  "version": "1.0.0",
+  "description": "APIs workshop polarising eddisrupt",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.2",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eddisrupt",
+  "license": "ISC"
+}

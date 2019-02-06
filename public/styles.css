@@ -1,0 +1,50 @@
+
+.row {
+    margin-right: 0;
+}
+
+.landing {
+
+    background-image: url("/bg-img-1.jpg");
+    
+    background-size: cover;
+    height: 700px;
+    font-family: 'Raleway', sans-serif;
+   
+}
+
+.landing h1 {
+    font-size: 42px;
+    line-height: 54px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.landing p {
+
+    color:white;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.box {
+
+    margin-top: 94px;
+}
+
+.padding {
+
+    padding-top: 40px;
+}
+
+.inputText {
+
+    margin-right: 10px;
+}
+
+.cta-form {
+
+    margin-top: 30px;
+}
